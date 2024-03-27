@@ -1,6 +1,7 @@
 package IEmployee;
 
-public class PartTimeEmployee extends Employee implements IEmployee {
+public class PartTimeEmployee extends Employee implements IEmployee  {
+
     int workingHours;
 
     public PartTimeEmployee(String name, int paymentPerHour, int workingHours) {
